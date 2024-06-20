@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles/checkout.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Checkout Page</div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Checkout</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="summary">
+                <h3>Order Summary</h3>
+                <div class="summary-details">
+                    <div>Subtotal:</div>
+                    <div id="subtotal">₹0.00</div>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h3>Payment Methods</h3>
+                <div>
+                    <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+                    <label for="credit-card">Credit Card</label>
+                </div>
+                <div>
+                    <input type="radio" id="debit-card" name="payment-method" value="debit-card">
+                    <label for="debit-card">Debit Card</label>
+                </div>
+                <div>
+                    <input type="radio" id="net-banking" name="payment-method" value="net-banking">
+                    <label for="net-banking">Net Banking</label>
+                </div>
+                <div>
+                    <input type="radio" id="upi" name="payment-method" value="upi">
+                    <label for="upi">UPI</label>
+                </div>
+                <div>
+                    <input type="radio" id="cash-on-delivery" name="payment-method" value="cash-on-delivery">
+                    <label for="cash-on-delivery">Cash on Delivery</label>
+                </div>
+            </div>
+            <div class="badges">
+                <h3>Badges Earned</h3>
+                <div class="badge gold">Gold Badges: 4</div>
+                <div class="badge silver">Silver Badges: 7</div>
+                <div class="badge bronze">Bronze Badges: 3</div>
+                <div>
+                    <input type="checkbox" id="use-badges" name="use-badges">
+                    <label for="use-badges">Use your badges for getting more discount</label>
+                </div>
+            </div>
+            <button id="checkout-button">Proceed to Payment</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Checkout Page</p>
+    </footer>
+
+    <script src="scripts/checkout.js"></script>
+</body>
+</html>
