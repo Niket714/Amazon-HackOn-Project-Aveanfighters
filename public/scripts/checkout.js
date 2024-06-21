@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Sample data for cart items
     const cartItems = [
-        { name: "Blue floral dress", price: 1999, quantity: 1 },
-        { name: "Phillips hair dryer", price: 2999, quantity: 1 },
-        { name: "Minisco sipper", price: 499, quantity: 1 }
+        { name: "Aashirvaad Wheat Flour", price:470, quantity: 1 },
+        { name: "Refrigerator", price: 32000, quantity: 1 },
+        { name: "Blue Polka Dot Dress", price: 900, quantity: 1 }
     ];
 
     // Function to format price as currency

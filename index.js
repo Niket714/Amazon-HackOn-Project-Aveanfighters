@@ -46,12 +46,26 @@ app.get("/threshold_setter" , async(req , res)=>{
 });
 
 app.get("/checkout" , async (req , res)=>{
-  let result = (await db.query("SELECT * from orders;")).rows;
+  let result = (await db.query("SELECT * from cart")).rows;
+  let items = [], original_price = [] ,  discount = [] , final_price = [] , batches = [];
+  for (let i = 0; i < result.length; i++) {
+    items.push(result[i].item);
+    original_price.push(result[i].original_price);
+    discount.push(result[i].discount);
+    final_price.push(result[i].final_price);
+    batches.push(result[i].batches);
+  }
+  result = (await db.query("SELECT * from orders;")).rows;
   let badge = 0;
   for (let i = 0; i < result.length; i++) {
     badge += result[i].batch;
   }
   res.render("checkout.ejs" ,{
+    item: items,
+    mrp: original_price,
+    dis : discount,
+    fin_price :final_price,
+    batch : batches,
     badges :badge
   });
 });
@@ -100,9 +114,32 @@ app.get("/feedback" , (req , res)=>{
   res.render("feedback.ejs");
 });
 
+app.get("/orders" , async (req , res)=>{
+  let result = (await db.query("SELECT * from orders")).rows;
+  let items = [], original_price = [] ,  discount = [] , final_price = [] , batches = [];
+  for (let i = 0; i < result.length; i++) {
+    items.push(result[i].item);
+    original_price.push(result[i].mrp_price);
+    discount.push(result[i].discount);
+    final_price.push(result[i].final_price);
+    batches.push(result[i].batch);
+  }
+  res.render("orders.ejs" , {
+    item: items,
+    mrp: original_price,
+    dis : discount,
+    fin_price :final_price,
+    batch : batches
+  });
+});
 
-app.post("/add_item" , (req , res)=>{
+app.post("/add_item" , async(req , res)=>{
   console.log(req.body);
+  let discount = req.body.Badge*30;
+  let final_price = req.body.Price - discount;
+  let result  = (await db.query("Select * from cart;")).rows;
+  await db.query("insert into cart (id , item , original_price , discount ,final_price , batches) values ($1 , $2 , $3 , $4 , $5 , $6)" , [result.length + 1 , req.body.item , req.body.Price , discount , final_price , req.body.Badge]);
+  res.redirect("/");
   
 });
 
@@ -138,8 +175,8 @@ app.post("/add_threshold" , async (req, res)=>{
     await db.query("update threshold set yearly = $1 where category='Clothing';", [req.body.thresholdClothingYearly]);
   }
 
-  if(req.body.thresholdHouseholdMYearly){
-    await db.query("update threshold set yearly = $1 where category='Household';", [req.body.thresholdHouseholdMYearly]);
+  if(req.body.thresholdHouseholdYearly){
+    await db.query("update threshold set yearly = $1 where category='Household';", [req.body.thresholdHouseholdYearly]);
   }
 
   if(req.body.thresholdGroceryYearly){
@@ -147,7 +184,7 @@ app.post("/add_threshold" , async (req, res)=>{
   }
 
   if(req.body.thresholdOthersYearly){
-    await db.query("update threshold set yearly = $1 where category='others';", [req.body.thresholdOtheryearly]);
+    await db.query("update threshold set yearly = $1 where category='others';", [req.body.thresholdOthersYearly]);
   }
 
   

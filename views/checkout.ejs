@@ -17,14 +17,21 @@
     <main>
         <div class="container">
             <h2>Checkout</h2>
-            <div class="cart-items">
-                <!-- Cart items will be dynamically added here -->
+            <div>
+                <hr>
+                <% let total_price = 0 , total_discount = 0 , total_badges = 0, original_price = 0; %>
+               <% for(let i= 0 ; i  < locals.item.length ; i++){ %> 
+                    <p><%= locals.item[i] %></p>
+                    <p>Price : <%= locals.mrp[i] %> &nbsp&nbsp&nbsp&nbsp Discount : <%= locals.dis[i] %> &nbsp&nbsp&nbsp&nbsp Badges : <%= locals.batch[i] %></p>
+                    <% total_badges += locals.batch[i]; total_discount += locals.dis[i]; total_price += locals.fin_price[i] ; original_price += locals.mrp[i]; %>
+                    <hr>
+                <% } %>
             </div>
             <div class="summary">
                 <h3>Order Summary</h3>
-                <div class="summary-details">
-                    <div>Subtotal:</div>
-                    <div id="subtotal">₹0.00</div>
+                <div>
+                    <p>Total Amount : <%= total_price %></p>
+                    <p>Total Badges Earn : <%= total_badges %></p>
                 </div>
             </div>
             <div class="payment-methods">
@@ -49,6 +56,8 @@
                     <input type="radio" id="cash-on-delivery" name="payment-method" value="cash-on-delivery">
                     <label for="cash-on-delivery">Cash on Delivery</label>
                 </div>
+                <br>
+                <h6>** ________ is the Payment Method used by maximum customers.</h6>
             </div>
             <div class="badges">
                 <h3>Badges Earned</h3>
