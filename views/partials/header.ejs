@@ -1,75 +1,33 @@
-
-    <header>
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
-            </div>
-
-            <div class="nav-address border">
-                <p>Hello</p>
-                <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p>Select your address</p>
-                </div>
-            </div>
-
-            <div class="nav-search">
-                <select class="search-select">
-                    <option value="">All</option>
-                </select>
-                <input placeholder="Search Amazon" class="input-search">
-                <div class="search-icon">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-            </div>
-
-            <div class="nav-lang border">
-                <div class="lang">
-                    <i class="fa-solid fa-earth-asia"></i>
-                </div>
-                <select class="lang-options">
-                    <option>EN</option>
-                </select>
-            </div>
-
-            <div class="nav-account border">
-                <p class="account-sign-in">Hello, sign in</p>
-                <select class="account-list">
-                    <option>Account & Lists</option>
-                </select>
-            </div>
-
-            <div class="nav-orders border">
-                <p class="return-order">Returns</p>
-                <p class="place-order">& Orders</p>
-            </div>
-
-            <div class="nav-cart border">
-                <div class="cart">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-                <p class="">Cart</p>
-            </div>
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <a href="/"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo"></a>
         </div>
-
-        <div class="panel">
-            <div class="panel-all border">
-                <i class="fa-solid fa-bars"></i>
-                All
-            </div>
-
-            <div class="panel-options">
-                <a href="" class="border anchor-tag">Today's Deals</a>
-                <a href="" class="border anchor-tag">Customer Service</a>
-                <a href="" class="border anchor-tag">Registry</a>
-                <a href="" class="border anchor-tag">Gift Cards</a>
-                <a href="" class="border anchor-tag">Sell</a>
-            </div>
-
-            <div class="panel-deals">
-                <a href="" class="border anchor-tag">Shop Deals in Electronics</a>
-            </div>
+        <div class="location">
+            <span class="line-one">Deliver to</span>
+            <span class="line-two">India</span>
         </div>
-
-    </header>
-    
+        <div class="search-bar">
+            <select class="search-category">
+                <option value="all">All</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="search-button">🔍</button>
+        </div>
+        <div class="account">
+            <span class="line-one">Hello, Khushi</span>
+            <span class="line-two">Account & Lists</span>
+        </div>
+        <div class="orders">
+            <span class="line-one">Returns</span>
+            <span class="line-two">& Orders</span>
+        </div>
+        <div class="cart">
+            <a href="/cart">
+                <span class="cart-icon">🛒</span>
+                <span class="cart-text">Cart</span>
+            </a>
+        </div>
+    </div>
+</header>

@@ -8,15 +8,94 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="/styles/main_page.css">
+        <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
-    <%- include("partials/header.ejs") %>
+    
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p>Hello</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Deliver to India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="">All</option>
+                </select>
+                <input placeholder="Search Amazon" class="input-search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-lang border">
+                <div class="lang">
+                    <i class="fa-solid fa-earth-asia"></i>
+                </div>
+                <select class="lang-options">
+                    <option>EN</option>
+                </select>
+            </div>
+
+            <div class="nav-account border">
+                <p class="account-sign-in">Hello, Khushi</p>
+                <select class="account-list">
+                    <option>Account & Lists</option>
+                </select>
+            </div>
+
+            <div class="nav-orders border">
+                <p class="return-order">Returns</p>
+                <p class="place-order">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <a href="/cart" style="color: white; text-decoration: none;">Cart</a>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+
+            <div class="panel-options">
+                <a href="" class="border anchor-tag">Today's Deals</a>
+                <a href="" class="border anchor-tag">Customer Service</a>
+                <a href="" class="border anchor-tag">Registry</a>
+                <a href="" class="border anchor-tag">Seller</a>
+                <a href="/threshold_setter" class="border anchor-tag">Threshold Setter</a>
+                <a href="/game_saving" class="border anchor-tag">Savings Dashboard</a>
+                <a href="/educational" class="border anchor-tag">Educational</a>
+                <a href="/feedback" class="border anchor-tag">Feedback</a>
+                <a href="/offer" class="border anchor-tag">Your Offers</a>
+            </div>
+
+            <div class="panel-deals">
+                <a href="/offer" class="border anchor-tag">Saver's Badges : <%= locals.badges %></a>
+            </div>
+        </div>
+
+    </header>
+    
     <div class="hero-section">
 
     </div>
 
-    <div class="shop-section">
+    <div class="shop-section" style="margin-bottom: 5vh;">
         <div class="box1 box">
             <div class="div-content">
                 <p>Health & Personal Care</p>
@@ -64,59 +143,73 @@
             </div>
         </div>
         
-        <div class="box" style="height: fit-content;">
+        <form action="/add_item" method="post" class="box" style="height: fit-content;">
             <div class="div-content">
-                <p>Aashirvaad Wheat Flour</p>
+                <p name="item">Aashirvaad Wheat Flour</p>
                 <div class="box-img" style="background-image: url('images/flour.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 600</h4>
+                <h4>Saver's Badges : 2</h4>
+                <button type="submit">Add to Cart</button>
             </div>
-        </div>
-        <div class="box" style="height: fit-content;">
+        </form>
+        <form action="/add_item"  method="post" class="box" style="height: fit-content;">
             <div class="div-content">
                 <p>Refrigerator</p>
                 <div class="box-img" style="background-image: url('images/fridge.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 3600</h4>
+                <h4>Saver's Badges : 100</h4>
+                <button type="submit">Add to Cart</button>
             </div>
-        </div>
-        <div class="box" style="height: fit-content;">
+        </form>
+        <form action="/add_item" class="box" style="height: fit-content;">
             <div class="div-content">
                 <p>Blue Polka Dot Dress</p>
                 <div class="box-img" style="background-image: url('images/dress.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 1000</h4>
+                <h4>Saver's Badges : 5</h4>
+                <button type="submit">Add to Cart</button>
             </div>
-        </div>
-        <div class="box" style="height: fit-content;">
+        </form>
+        <form action="/add_item" class="box" style="height: fit-content;">
             <div class="div-content">
                 <p>Smart Watch</p>
                 <div class="box-img" style="background-image: url('images/watch.png'); object-fit:cover ;"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 3600</h4>
+                <h4>Saver's Badges : 10</h4>
+                <button type="submit">Add to Cart</button>
             </div>
-        </div>
+        </form>
 
          
 
-        <div class="box" style="height: fit-content;">
+        <form action="/add_item" class="box" style="height: fit-content;">
             <div class="div-content" >
                 <p>Water Bottle</p>
                 <div class="box-img" style="background-image: url('images/bottle.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 60</h4>
+                <h4>Saver's Badges : 0</h4>
+                <button type="submit">Add to Cart</button>
             </div>
 
-        </div>
+        </form>
 
-        <div class="box" style="height: fit-content;">
+        <form action="/add_item" class="box" style="height: fit-content;">
             <div class="div-content" >
                 <p>Notebooks</p>
                 <div class="box-img" style="background-image: url('images/notebook.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 150</h4>
+                <h4>Saver's Badges : 1</h4>
+                <button type="submit">Add to Cart</button>
             </div>
-        </div>
+        </form>
 
         <div class="box" style="height: fit-content;">
             <div class="div-content">
                 <p>Medicine</p>
                 <div class="box-img" style="background-image: url('images/medicine.png');"></div>
-                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <h4>Price : 320</h4>
+                <h4>Saver's Badges : 2</h4>
+                <button type="submit">Add to Cart</button>
             </div>
         </div>
 
@@ -124,74 +217,18 @@
             <div class="div-content">
                 <p>Bag</p>
                 <div class="box-img" style="background-image: url('images/bag.png');"></div>
-                <button type="button">Add to Cart</button>
+                <h4>Price : 6000</h4>
+                <h4>Saver's Badges : 20</h4>
+                <button type="submit">Add to Cart</button>
             </div>
         </div>
     </div>
 
 
-    <footer style="margin-top:2vh;">
-        <div class="footer-panel1">
-            <a href="">Back to top</a>
-        </div>
+    <%- include("partials/footer.ejs") %>
 
-        <div class="footer-panel2">
-            <ul>
-                <p>Get to Know Us</p>
-                <a href="">Careers</a>
-                <a href="">Blog</a>
-                <a href="">About Amazon</a>
-                <a href="">Investor Relations</a>
-                <a href="">Amazon Devices</a>
-                <a href="">Amazon Science</a>
-            </ul>
-            <ul>
-                <p>Make Money with Us</p>
-                <a href="">Sell products on Amazon</a>
-                <a href="">Sell on Amazon Business</a>
-                <a href="">Sell apps on Amazon</a>
-                <a href="">Become an Affiliate</a>
-                <a href="">Advertise Your Products</a>
-                <a href="">Self-Publish with Us</a>
-                <a href="">Host an Amazon Hub</a>
-                <a href="">See More Make Money with Us</a>
-            </ul>
-            <ul>
-                <p>Amazon Payment Products</p>
-                <a href="">Amazon Business Card</a>
-                <a href="">Shop with Points</a>
-                <a href="">Reload Your Balance</a>
-                <a href="">Amazon Currency Converter</a>
-            </ul>
-            <ul>
-                <p>Let Us Help You</p>
-                <a href="">Amazon and COVID-19</a>
-                <a href="">Your Account</a>
-                <a href="">Your Orders</a>
-                <a href="">Shipping Rates & Policies</a>
-                <a href="">YReturns & Replacements</a>
-                <a href="">Manage Your Content and Devices</a>
-                <a href="">Amazon Assistant</a>
-                <a href="">Help</a>
-
-            </ul>
-        </div>
-
-        <div class="footer-panel3">
-            <div class="footer-logo"></div>
-            <div class="nav-lang border">
-                <div class="lang">
-                    <i class="fa-solid fa-globe"></i>
-                </div>
-                <select class="lang-options">
-                    <option>English</option>
-                </select>
-            </div>
-        </div>
-
-
-    <%- include("partials/footer.ejs")%>
-    </footer>
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/c629ece7-9900-463e-bfee-d78dd0720e97/webchat/config.js" defer></script>
 
 </body>
 
