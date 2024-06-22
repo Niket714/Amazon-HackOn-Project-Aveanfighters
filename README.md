@@ -413,3 +413,45 @@ https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TECH STACK :
+
+1) Postgresql
+2) Html
+3) Css
+4) Javascript
+5) Nodejs
+6) Expess js
+7) Git
+8) GitHub
+9) Bootstrap
+10) Botpress
+
+
+FUTURE SCOPE : 
+1) Voice activated chatbot.
+2) Text message on messaging app when threshold limit is crossed.
+3) More personalised Payment recommendation model that can track the payment methods used by customers in past and give suggestions accordingly.
+4) Enable users to share badges and achievements on social media to foster competiton and increase screen time of amazon app.
+
+
+
+
+
+
+
