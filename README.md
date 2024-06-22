@@ -90,7 +90,7 @@ GUIDE :
 
 
 
-3) This button will show us the saving's made per product. You can compare it with graph too. It will also show us the number of saver's badge earned till now.
+3) This button will show us the savings made on each product. You can compare it with graph too. It will also show us the number of saver's badge earned till now.
 
 
 
@@ -155,7 +155,7 @@ GUIDE :
 
 
 
- 5) We can see products, their price and the number of saver's badge we will get if we buy the product. we can add the product to cart and see the number of 
+ 5) We can see products, their price and the number of saver's badge we will get if we buy the product. We can add the product to cart and see the number of 
      saver's badge in the cart too.
 
 
@@ -334,7 +334,7 @@ GUIDE :
 
 
 
-10) The checkout page has all the above mentioned functionalities like saver,s badge, offers, etc. Plus it has a special model that tells the user the best payment method on the basis of which payment method has most of the customers used in the similar range bill.
+10) The checkout page has all the above mentioned functionalities like saver's badge, offers, etc. Plus it has a special model that tells the user the best payment method on the basis of which payment method has most of the customers used in the similar range bill.
 
 
 
@@ -449,6 +449,20 @@ FUTURE SCOPE :
 3) More personalised Payment recommendation model that can track the payment methods used by customers in past and give suggestions accordingly.
 4) Enable users to share badges and achievements on social media to foster competiton and increase screen time of amazon app.
 
+
+INSTRUCTIONS FOR LOCALLY SETTING UP THE PROJECT : 
+SETUP :
+1) Clone the repo using
+    git clone https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters.git
+
+2) Create an env file and replace the varialbles
+    PG_USER, PG_HOST, PG_DATABASE, PG_PASSWORD, PG_PORT as "postgres", "localhost", "database_name", "password_postgres", "port_pg"
+
+2) Install the npm packages & dependencies 
+    npm Install
+
+3) Run the application using 
+    node index.js
 
 
 
