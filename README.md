@@ -21,7 +21,7 @@ KEY OBJECTIVES :
 
 FEATURES :
 1) The personalised payment experiences and management icons on the Navigation bar itself.
-2) Threshold limit setter and notification system.
+2) Threshold limit setter system.
 3) Gamified savings and saver's badge system.
 4) Savings system which add your savings from different products and compare savings of different products in the form of graph.
 5) Finance educational system.
@@ -33,6 +33,23 @@ FEATURES :
 
 
 GUIDE :
+1) These buttons on the navigation bar will take you to the new personalised payment experiences and management system.
 
-https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/91a80ac6-a00d-482c-9e80-5201b2e61367
+
+
+
+
+
+
+
+
+
+
+
+
+
+   https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/9d80a5b5-f6d6-464f-86f0-a8766bcf8f43
+
+   
+
 
