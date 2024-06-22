@@ -171,7 +171,7 @@ GUIDE :
 
 
 
-   https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/3c9efcfd-720f-4797-94d8-6c7e9f3dc7aa
+     https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/3c9efcfd-720f-4797-94d8-6c7e9f3dc7aa
 
 
 
@@ -204,7 +204,7 @@ GUIDE :
 
 
 
-    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/8b697cbf-4f1b-4c19-b833-ef460b732f55
+     https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/8b697cbf-4f1b-4c19-b833-ef460b732f55
 
 
 
@@ -278,7 +278,7 @@ GUIDE :
  
 
 
-  https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/f422c577-c762-4bb4-a824-1e2016b0279a
+    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/f422c577-c762-4bb4-a824-1e2016b0279a
 
 
 
@@ -358,7 +358,7 @@ GUIDE :
 
 
 
-https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/4f1622cc-ba3d-4fa2-8280-2c58857fd52a
+       https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/4f1622cc-ba3d-4fa2-8280-2c58857fd52a
 
 
 
@@ -405,7 +405,7 @@ https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328
 
 
 
-https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/1274e687-748b-4be8-976a-0471999b61d7
+       https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/1274e687-748b-4be8-976a-0471999b61d7
 
 
 
