@@ -33,7 +33,7 @@ FEATURES :
 
 
 GUIDE :
-1) These buttons on the navigation bar will take you to the new personalised payment experiences and management system.
+1. These buttons on the navigation bar will take you to the new personalised payment experiences and management system.
 
 
 
@@ -50,6 +50,99 @@ GUIDE :
 
    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/9d80a5b5-f6d6-464f-86f0-a8766bcf8f43
 
+
+
+
+
+
+
+
+
+
+
+   2. This button will take you to the threshold setter sysyem and you can set monthly and yearly threshold limits. you can preview the limits and change them too. You can comapre limits for different products with help of graph.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
+   https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/e6b5a23f-ecc8-4587-8b25-8ef13b1d6edf
+
+
+
+
+
+
+
+
+
+
+
+    3. This button will show us the saving's made per product. You can compare it with graph too. It will also show us the number of saver's badge earned till now.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/abf5a88b-4e32-42a3-8c81-78a74be55066
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       4. We can see the offers related to the gamified saving's system and redeem offers on the basis of saver's badges earned.
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 
 
