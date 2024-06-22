@@ -34,7 +34,7 @@ FEATURES :
 
 
 GUIDE :
-1. These buttons on the navigation bar will take you to the new personalised payment experiences and management system.
+1) These buttons on the navigation bar will take you to the new personalised payment experiences and management system.
 
 
 
@@ -61,7 +61,7 @@ GUIDE :
 
 
 
-   2. This button will take you to the threshold setter sysyem and you can set monthly and yearly threshold limits. you can preview the limits and change them too. You can comapre limits for different products with help of graph.
+2) This button will take you to the threshold setter sysyem and you can set monthly and yearly threshold limits. you can preview the limits and change them too. You can comapre limits for different products with help of graph.
   
 
 
@@ -90,7 +90,7 @@ GUIDE :
 
 
 
-    3. This button will show us the saving's made per product. You can compare it with graph too. It will also show us the number of saver's badge earned till now.
+3) This button will show us the saving's made per product. You can compare it with graph too. It will also show us the number of saver's badge earned till now.
 
 
 
@@ -125,7 +125,7 @@ GUIDE :
 
 
 
-      4. We can see the offers related to the gamified saving's system and redeem offers on the basis of saver's badges earned.
+4) We can see the offers related to the gamified saving's system and redeem offers on the basis of saver's badges earned.
       
 
 
@@ -155,7 +155,7 @@ GUIDE :
 
 
 
-   5. We can see products, their price and the number of saver's badge we will get if we buy the product. we can add the product to cart and see the number of 
+ 5) We can see products, their price and the number of saver's badge we will get if we buy the product. we can add the product to cart and see the number of 
      saver's badge in the cart too.
 
 
@@ -189,7 +189,7 @@ GUIDE :
 
 
 
-   6. This button will take you to the finance educational system where basic terms and definations are explained in easy language.
+6) This button will take you to the finance educational system where basic terms and definations are explained in easy language.
   
 
 
@@ -216,7 +216,200 @@ GUIDE :
 
 
 
+
+
+
+
+7) On clicking here the chatbot appears and it will all your queries in simple language.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/edc03020-f58a-49f5-a2fe-3cdcde86735f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8) The chatbot can also answer in local languages.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+ 
+
+
+  https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/f422c577-c762-4bb4-a824-1e2016b0279a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9) This button takes us to the feedback system where customer feedbacks are taken and stored.
+
+
+
+
+
+
+
+
+
+
     
+
+
+
+
+   https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/022484dc-f2a1-4658-9b14-8e9dca05c9d2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10) The checkout page has all the above mentioned functionalities like saver,s badge, offers, etc. Plus it has a special model that tells the user the best payment method on the basis of which payment method has most of the customers used in the similar range bill.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/4f1622cc-ba3d-4fa2-8280-2c58857fd52a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11) This feature shows the previous orders and the saver's badge earned on each previous order.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/1274e687-748b-4be8-976a-0471999b61d7
+
+
+
+
 
 
 
