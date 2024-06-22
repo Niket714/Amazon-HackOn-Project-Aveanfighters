@@ -29,7 +29,8 @@ FEATURES :
 7) Customer feedback system.
 8) Offers system for earned saver's badge.
 9) Cart system showing the items present in cart and saver's badge on each item.
-10) A best/mostly used payment recommendation system on the chevkout page.
+10) A best/mostly used payment recommendation system on the checkout page.
+11) Every item has saver's badge number associated with it you can observe, compare and directly add to cart.In the cart also the saver's badge number will be visible.
 
 
 GUIDE :
@@ -106,7 +107,7 @@ GUIDE :
 
 
 
-        https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/abf5a88b-4e32-42a3-8c81-78a74be55066
+    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/abf5a88b-4e32-42a3-8c81-78a74be55066
 
 
 
@@ -124,13 +125,86 @@ GUIDE :
 
 
 
-       4. We can see the offers related to the gamified saving's system and redeem offers on the basis of saver's badges earned.
+      4. We can see the offers related to the gamified saving's system and redeem offers on the basis of saver's badges earned.
       
 
 
 
 
 
+
+
+
+
+
+
+
+     https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/5a431c19-78d1-4ebc-891a-949648f2c297
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+   5. We can see products, their price and the number of saver's badge we will get if we buy the product. we can add the product to cart and see the number of 
+     saver's badge in the cart too.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/3c9efcfd-720f-4797-94d8-6c7e9f3dc7aa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   6. This button will take you to the finance educational system where basic terms and definations are explained in easy language.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    https://github.com/Niket714/Amazon-HackOn-Project-Aveanfighters/assets/156951328/8b697cbf-4f1b-4c19-b833-ef460b732f55
 
 
 
